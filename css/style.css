@@ -1,0 +1,310 @@
+
+* {
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #EEEDF0;
+    
+}
+
+.ahis {
+    display: flex;
+    color: #6A041D;
+    font-size: 220%;
+    justify-content: center;
+    align-items: flex-end;
+    margin-block-end: 1%;
+    
+}
+
+
+.cantinho {
+    text-align: center;
+    font-size: 100%;
+    color: #2a1f23f7;
+    margin-block-end: 1%;
+}
+
+ul {
+    font-size: 10px;
+    display: flex;
+    margin: 5px;
+    list-style: none;
+    justify-content: space-around;
+    cursor: pointer;
+    border-radius: 50%;
+    color: #965342;
+}
+
+
+
+body{
+
+    background-color: white;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+
+}
+
+h1{
+
+    color: #6A041D;
+    font-size: 220%;
+    text-align: center;
+
+}
+
+
+h4{
+    text-align: center;
+    font-size: 100%;
+    color: #C3423F;
+}
+
+#paginainicial{
+
+    background-color: #1E90FF;
+	color: #000;
+	text-align: center; 
+
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+
+ul a:hover{
+    color: #f13239;
+}
+
+
+#capa {
+
+    width: 100%;
+    height: 60%;
+
+}
+
+
+
+
+#sobre{
+
+    list-style: none;
+	display: inline;
+    padding: 15px;
+    text-align: center;
+}
+
+#his1, #his3, #his5, #his7, #his9, #his11, #his13, #his15, #his17, #his19, #his21, #his23, #his25, #his27, #his29{
+
+    text-align: center; 
+    color:  #C3423F;
+    font-size: 130%;
+}
+
+#his2, #his4, #his6, #his8, #his10, #his12, #his14, #his16, #his18, #his20, #his22, #his24, #his26, #his28, #his30{
+
+    text-align: center; 
+    color:  black;
+    font-size: 100%;
+}
+
+.bon{
+    display: grid;
+    grid-template-columns: 20% 20%;
+    column-gap: 35%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+
+#item2,#item3,#item3,#item4,#item5,#item6,#item7,#item8,#item9,#item10,#item11,#item12,#item13{
+    margin-left: 0%;
+    margin-right: 5%;
+    text-align: justify;
+
+    
+
+
+}
+
+.bonus{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 0%;
+    margin-left: 5%;
+
+    
+}
+
+#item2{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    font-style: bold;
+
+    
+}
+
+#videos1{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
+}
+
+#item3{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+}
+
+#item4{
+    
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#videos2{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#item5{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#item6{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+#videos3{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+#item7{
+    grid-column-start: 1;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
+#item8{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+#videos4{
+    grid-column-start: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+#item9{
+    grid-column-start: 2;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
+#item10{
+    grid-column-start: 1;
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+
+#videos5{
+    grid-column-start: 1;
+    grid-row-start: 8;
+    grid-row-end: 8;
+}
+
+#item11{
+    grid-column-start: 1;
+    grid-row-start: 9;
+    grid-row-end: 9;
+}
+
+#item12{
+    grid-column-start: 2;
+    grid-row-start: 7;
+    grid-row-end: 7;
+}
+
+#videos6{
+    grid-column-start: 2;
+    grid-row-start: 8;
+    grid-row-end: 8;
+}
+
+#item13{
+    grid-column-start: 2;
+    grid-row-start: 9;
+    grid-row-end: 9;
+}
+
+.fale{
+    
+    display: grid;
+    grid-template-columns: 190% 100%;
+    column-gap: 15%;
+    margin-left: 5%;
+    text-align: center;
+
+}
+
+h2{
+
+    text-align: center;
+    font-size: 150%;
+
+}
+
+
+#his1, #his3, #his5, #his7, #his9, #his11, #his13, #his15, #his17, #his19, #his21, #his23, #his25, #his27, #his29{
+
+    text-align: center; 
+    color:  #C3423F;
+    font-size: 130%;
+
+}
+
+#item1{
+
+text-align: center;
+font-size: 300%;
+color: #0A3200;
+
+}
+
+footer{
+        padding: 30%;
+        text-align: end;
+        font-size: 30px;
+}
